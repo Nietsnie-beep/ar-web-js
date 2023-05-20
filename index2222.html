@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DSi</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <style>
+body{
+  text-align: center;
+  background-color: #ba0001;
+}
+.img{
+  margin-left: auto;
+  margin-right: auto;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button:hover {
+
+box-shadow: 0 15px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0, 0, 0, 0.16);
+
+}
+.primero{
+  background-color: #f0f0f0;
+ text-align: center;
+ padding: 20px;
+border: 10px solid #ababab;
+}
+
+.segundo{
+ text-align: center;
+}
+
+</style> -->
+
+    <script>
+      function addScene() {
+        var scene = document.createElement("iframe")
+        scene.setAttribute("src", "/AR.html")
+        scene.setAttribute("width", "640")
+        scene.setAttribute("height", "480")
+        scene.setAttribute("align", "center")
+        scene.setAttribute("style", "")
+        document.querySelector("body").appendChild(scene)
+       
+        var contador = 1;
+        document.getElementById('button').onclick = function() {
+        alert("No es necesario presionar mas de una vez el boton");
+        };
+      }
+      </script>
+
+  <body>
+    <!-- <div class="img">
+  <img src="banner.jpg">
+    </div> -->
+
+    <div class="primero">
+    <iframe src="/AR.html" width="640px" height="480px" align="center"></iframe>
+    </div>
+
+    <div class="segundo">
+
+      </div>
+
+  </body>
+</html>
+
